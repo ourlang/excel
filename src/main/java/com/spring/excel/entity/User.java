@@ -26,6 +26,11 @@ public class User {
      */
     private String telephone;
 
+
+    public User() {
+
+    }
+
     public User(String name, String age, String address, String email, String telephone) {
         this.name = name;
         this.age = age;
